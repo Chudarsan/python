@@ -867,11 +867,11 @@ Q96. Write a python program to print below pattern.
 * * * * * 
 ```
 	program:
-		for i in range(5):
-			print("*",end =" ")
-			for j in range(i):
-				print(" *",end =" ")
-			print()
+            for i in range(5):
+		print("*",end =" ")
+		for j in range(i):
+			print(" *",end =" ")
+		print()
 		
 		
 Q97. Write a python program to print below pattern.
@@ -884,13 +884,12 @@ Q97. Write a python program to print below pattern.
 ```
 	program:
 		for i in range(5):
-			for j in range(5,0,-1):
-
-				if(j > i+1):
-					print(" ",end =" ")
-				else:
-					 print("*",end =" ")
-			print()
+		    for j in range(5,0,-1):
+		        if(j > i+1):
+			    print(" ",end =" ")
+			else:
+		            print("*",end =" ")
+		 print()
 		
 Q98. Write a python program to print below pattern.
 ```
@@ -920,10 +919,9 @@ Q99. Write a python program to print below pattern.
 	program:
 
 		for i in range(5):
-
-			for j in range(i+1):
-				print(j+1,"",end =" ")
-			print()
+		    for j in range(i+1):
+			print(j+1,"",end =" ")
+		    print()
 
 Q100. Write a python program to print below pattern.
 ```
@@ -936,7 +934,6 @@ E E E E E
 	program: 
 
 		for i in range(5):
-
-			for j in range(i+1):
-				print(chr(65+i),"",end =" ")
-			print()
+		    for j in range(i+1):
+			print(chr(65+i),"",end =" ")
+		    print()
