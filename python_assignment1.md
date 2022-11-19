@@ -682,7 +682,22 @@ Q83. Write a Python program to swap two elements in a list.
 	swapped_lst = swap_two_elements_in_list(num_lst,5,9)
 
 Q84. Write a Python program to find N largest element from a list.
+```
+        ip_lst = [10, 15, 20, 70]
 
+	def n_largest(ip_lst, n):
+	    op_list = []
+	    for i in range(0, n):
+		max_ele = 0
+		for j in range(len(ip_lst)):
+		    if ip_lst[j] > max_ele:
+			max_ele = ip_lst[j];
+		ip_lst.remove(max_ele);
+		op_list.append(max_ele)
+	    return op_list[n-1]
+
+	print(n_largest(ip_lst,2))
+```	
 Q85. Write a Python program to find cumulative sum of a list.
 
 	 program:
